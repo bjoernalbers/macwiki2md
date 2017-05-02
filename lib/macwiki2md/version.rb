@@ -1,3 +1,3 @@
-module Macwiki2md
-  VERSION = "0.1.0"
+module MacWiki2MD
+  VERSION = '0.0.1'
 end

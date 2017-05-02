@@ -1,5 +1,5 @@
-require "macwiki2md/version"
+require 'macwiki2md/version'
 
-module Macwiki2md
+module MacWiki2MD
   # Your code goes here...
 end
