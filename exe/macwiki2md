@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+require 'macwiki2md'
+
+opts = Slop.parse do |o|
+  o.on '--version', 'print the version and exit' do
+    puts MacWiki2MD::VERSION
+    exit
+  end
+end
+
+puts 'This does nothing yet...'

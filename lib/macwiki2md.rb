@@ -1,3 +1,4 @@
+require 'slop'
 require 'macwiki2md/version'
 
 module MacWiki2MD

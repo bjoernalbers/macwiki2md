@@ -1,11 +1,7 @@
-require "spec_helper"
+require 'spec_helper'
 
-RSpec.describe Macwiki2md do
-  it "has a version number" do
-    expect(Macwiki2md::VERSION).not_to be nil
-  end
-
-  it "does something useful" do
-    expect(false).to eq(true)
+describe MacWiki2MD do
+  it 'has a version number' do
+    expect(`bundle exec exe/macwiki2md --version`).to include MacWiki2MD::VERSION
   end
 end
